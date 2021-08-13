@@ -1,18 +1,27 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+using system;
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+namespace clase3
+{
+    class program
+    {
+        static void main(string[] args)
+        {
+        
+            int numero1=10, numero2=5, resultado;
+            
+            console.writeline(¨introducasu primer valor: ¨);
+            numero1 = int32.parse(console.readline());
+            
+            console.writeline(¨introducasu segundo valor: ¨);
+            numero2 =int32.parse(console.readline());       
+            
+            resultado = numero1 + numero2;
+            
+            
+            console.writeline(¨El resultado de la suma es: ¨ + resultado);
+         
+         
+         
+         }
+     }
+}      
